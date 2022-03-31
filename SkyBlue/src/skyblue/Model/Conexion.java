@@ -11,9 +11,9 @@ public class Conexion {
        try{
        //cargar nuestro driver
            Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-         //  con=DriverManager.getConnection("jdbc:derby://localhost:1527/SkyBlueDB","MarlenyDB","dreaming"); 
-         //  con=DriverManager.getConnection("jdbc:derby://localhost:1527/C:\\Users\\Usuario\\Documents\\My Work\\ING Software I\\Proyecto\\Base de Datos\\SQL\\SkyBlueDB","MarlenyDB","dreaming"); 
-             con=DriverManager.getConnection("jdbc:derby:SkyBlueDB","MarlenyDB","dreaming"); 
+         //  con=DriverManager.getConnection("jdbc:derby://localhost:1527/SkyBlueDB","SkyBlueDB","dreaming"); 
+         //  con=DriverManager.getConnection("jdbc:derby://localhost:1527/C:\\Users\\Usuario\\Documents\\My Work\\ING Software I\\Proyecto\\Base de Datos\\SQL\\SkyBlueDB","SkyBlueDB","dreaming"); 
+             con=DriverManager.getConnection("jdbc:derby:SkyBlueDB","root",""); 
           
            System.out.println("Conecxion Establecida.");
            
