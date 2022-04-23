@@ -4,9 +4,9 @@
  */
 package skyblue.Controller;
 
-import Model.UsuarioDA;
+import skyblue.Model.UsuarioDA;
 import skyblue.View.Configuracion;
-import View.Menu;
+import skyblue.View.Menu;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;

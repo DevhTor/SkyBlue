@@ -1,10 +1,10 @@
 
 package skyblue.Controller;
 
-import Model.UsuarioDA;
-import Model.VueloDA;
+import skyblue.Model.UsuarioDA;
+import skyblue.Model.VueloDA;
 import View.CrearCuenta;
-import View.Menu;
+import skyblue.View.Menu;
 import skyblue.View.Login;
 import View.BuscarVuelo;
 import java.awt.event.ActionEvent;
@@ -31,7 +31,7 @@ public class LoginController extends MouseAdapter implements ActionListener {
     
     //constructor
     public LoginController(Login viewLogin, UsuarioDA modeloUsuario){
-      
+        System. out. println("Constructor\n"); 
         
         this.loginView = viewLogin; 
         this.modeloUsuario = modeloUsuario;
@@ -53,6 +53,8 @@ public class LoginController extends MouseAdapter implements ActionListener {
         
       if(loginView.iniciarSesionBTN == e.getSource()){  //si se oprime iniciar sesion
           
+        System. out. println("Inicio De Sesion Presionado\n");   
+        
         String nombre = loginView.nombreUsuarioTXT.getText();   //obtener usuario
         String password = new String(loginView.password.getPassword()); //obtener password
         

@@ -4,8 +4,8 @@
  */
 package skyblue.Controller;
 
-import Model.UsuarioDA;
-import Model.VueloDA;
+import skyblue.Model.UsuarioDA;
+import skyblue.Model.VueloDA;
 import View.OpcionesPago;
 import View.Reservaciones;
 import java.awt.event.ActionEvent;

@@ -1,7 +1,7 @@
 
 package skyblue.Controller;
 
-import Model.UsuarioDA;
+import skyblue.Model.UsuarioDA;
 import View.CrearCuenta;
 import skyblue.View.Login;
 import com.toedter.calendar.JDateChooser;

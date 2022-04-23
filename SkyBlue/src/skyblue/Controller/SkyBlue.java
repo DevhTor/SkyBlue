@@ -2,7 +2,7 @@
 package skyblue.Controller;
 
 import skyblue.Controller.*;
-import Model.*;
+import skyblue.Model.*;
 import skyblue.View.*;
 import javax.swing.JDialog;
 import javax.swing.JFrame;

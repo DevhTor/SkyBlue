@@ -38,7 +38,6 @@ public class CambiarPassword extends javax.swing.JFrame {
         password = new javax.swing.JPasswordField();
         passwordConfirm = new javax.swing.JPasswordField();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -81,14 +80,10 @@ public class CambiarPassword extends javax.swing.JFrame {
         passwordConfirm.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         getContentPane().add(passwordConfirm, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, 204, 25));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Documents\\NetBeansProjects\\SkyBlue\\src\\Botones\\CambiarClave.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/CambiarClave.png"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 420, 40));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Documents\\NetBeansProjects\\SkyBlue\\src\\Botones\\Blanco.png")); // NOI18N
-        jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 440, 160));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Usuario\\Documents\\NetBeansProjects\\SkyBlue\\src\\Botones\\azul profundo.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/SkyBlue.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 300));
 
         pack();
@@ -139,7 +134,6 @@ public class CambiarPassword extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;

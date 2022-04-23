@@ -17,7 +17,9 @@ public class CrearCuenta extends javax.swing.JFrame {
      */
     public CrearCuenta() {
         initComponents();
-        this.setIconImage(new ImageIcon(getClass().getResource("/Botones/SkyBlueIcon.png")).getImage());
+        
+        //establecer icono de la ventana
+        this.setIconImage(new ImageIcon(getClass().getResource("/skyblue/Botones/SkyBlueIcon.png")).getImage());
     }
 
     /**
@@ -78,7 +80,7 @@ public class CrearCuenta extends javax.swing.JFrame {
         jLabel3.setText("Ciudad");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 230, -1, 20));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/minilogo.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/minilogo.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 35, 226, 102));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -116,12 +118,17 @@ public class CrearCuenta extends javax.swing.JFrame {
         getContentPane().add(passwordConfirm, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 440, 204, 25));
         getContentPane().add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 410, 204, 25));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/Registrate.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/Registrate.png"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 90, -1, -1));
         getContentPane().add(emailTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 320, 204, 25));
 
         getContentPane().add(ciudadCB, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, 120, -1));
 
+        paisCB.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                paisCBActionPerformed(evt);
+            }
+        });
         getContentPane().add(paisCB, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 230, 130, -1));
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -176,7 +183,6 @@ public class CrearCuenta extends javax.swing.JFrame {
 
         Femenino.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         Femenino.setText("Fememino");
-        Femenino.setOpaque(false);
         Femenino.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 FemeninoActionPerformed(evt);
@@ -186,7 +192,6 @@ public class CrearCuenta extends javax.swing.JFrame {
 
         Masculino.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         Masculino.setText("Masculino");
-        Masculino.setOpaque(false);
         getContentPane().add(Masculino, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 190, -1, -1));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -211,6 +216,10 @@ public class CrearCuenta extends javax.swing.JFrame {
     private void FemeninoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_FemeninoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_FemeninoActionPerformed
+
+    private void paisCBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_paisCBActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_paisCBActionPerformed
 
     /**
      * @param args the command line arguments

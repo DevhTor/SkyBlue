@@ -1,37 +1,44 @@
-package Model;
+package skyblue.Model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.*;
 
 public class Conexion {
     Connection con=null;
    
     public Connection conexion(){
        try{
-       //cargar nuestro driver
-           Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-         //  con=DriverManager.getConnection("jdbc:derby://localhost:1527/SkyBlueDB","SkyBlueDB","dreaming"); 
-         //  con=DriverManager.getConnection("jdbc:derby://localhost:1527/C:\\Users\\Usuario\\Documents\\My Work\\ING Software I\\Proyecto\\Base de Datos\\SQL\\SkyBlueDB","SkyBlueDB","dreaming"); 
-             con=DriverManager.getConnection("jdbc:derby:SkyBlueDB","root",""); 
+
+            //Class.forName("com.mysql.cj.jdbc.Driver");
+            //con=DriverManager.getConnection("jdbc:derby://localhost:1527/SkyBlueDB","SkyBlueDB","dreaming"); 
+            //con=DriverManager.getConnection("jdbc:derby://localhost:1527/C:\\Users\\Usuario\\Documents\\My Work\\ING Software I\\Proyecto\\Base de Datos\\SQL\\SkyBlueDB","SkyBlueDB","dreaming"); 
+            //con=DriverManager.getConnection("jdbc:derby:SkyBlueDB","root",""); 
+            
+            con = DriverManager.getConnection("jdbc:mysql://localhost/skyBlueDb", "root", "");
           
-           System.out.println("Conecxion Establecida.");
+           System.out.println("Coneccion Establecida.");
            
-       }catch(ClassNotFoundException | SQLException e){
-        System.out.println("error conexion: "+e);
+       }catch(SQLException e){
+        System.out.println("error conexion: " + e);
         
        }
      return con;
     }
+
     
     public Connection conexionA(){
      try{
-       //cargar nuestro driver
-           Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-           con=DriverManager.getConnection("jdbc:derby:aerolineas");
-           System.out.println("Conecxion Establecida.");
+        //cargar nuestro driver
+        //Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+        //con=DriverManager.getConnection("jdbc:derby:aerolineas");
+        
+        con = DriverManager.getConnection("jdbc:mysql://localhost/skyAirLineDb", "root", "");
+        
+        System.out.println("Coneccion Establecida.");
            
-       }catch(ClassNotFoundException | SQLException e){
+       }catch(SQLException e){
         System.out.println("error conexion: "+e);
         
        }
@@ -41,11 +48,12 @@ public class Conexion {
     public Connection conexionB(){
        try{
        //cargar nuestro driver
-           Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-           con=DriverManager.getConnection("jdbc:derby:bankdb");
-           System.out.println("Conecxion Establecida.");
            
-       }catch(ClassNotFoundException | SQLException e){
+        con = DriverManager.getConnection("jdbc:mysql://localhost/skyBankDb", "root", "");    
+       
+        System.out.println("Coneccion Establecida.");
+           
+       }catch(SQLException e){
         System.out.println("error conexion: "+e);
         
        }
@@ -58,4 +66,5 @@ public class Conexion {
     }catch(SQLException ex){}
         return con;
     }
+  
 }

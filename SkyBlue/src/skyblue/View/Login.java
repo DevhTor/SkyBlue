@@ -8,15 +8,16 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Marleny Pena Tavarez
+ * @author Hector Castillo
  */
 public class Login extends javax.swing.JFrame {
-
     /**
      * Creates new form Login
      */
     public Login() {
         initComponents();
+        
+        //establecer icono
         this.setIconImage(new ImageIcon(getClass().getResource("/skyblue/Botones/SkyBlueIcon.png")).getImage());
        
     }
@@ -59,6 +60,11 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, 297, -1));
 
         iniciarSesionBTN.setText("Iniciar Sesion");
+        iniciarSesionBTN.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                iniciarSesionBTNActionPerformed(evt);
+            }
+        });
         getContentPane().add(iniciarSesionBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, 130, 30));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -74,7 +80,14 @@ public class Login extends javax.swing.JFrame {
         claveOlvidadaLBL.setText("Olvide mi contraseña");
         getContentPane().add(claveOlvidadaLBL, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 430, 120, 30));
 
+        crearCuentaBTN.setAction(crearCuentaBTN.getAction());
+        crearCuentaBTN.setForeground(new java.awt.Color(51, 51, 51));
         crearCuentaBTN.setText("Crear cuenta");
+        crearCuentaBTN.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                crearCuentaBTNActionPerformed(evt);
+            }
+        });
         getContentPane().add(crearCuentaBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 380, 120, 30));
 
         password.setBorder(null);
@@ -85,6 +98,14 @@ public class Login extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void iniciarSesionBTNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iniciarSesionBTNActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_iniciarSesionBTNActionPerformed
+
+    private void crearCuentaBTNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearCuentaBTNActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_crearCuentaBTNActionPerformed
 
     /**
      * @param args the command line arguments
@@ -114,9 +135,14 @@ public class Login extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-    java.awt.EventQueue.invokeLater(new Runnable() {
+        
+        java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                
+                System.out.println("antes de login");
                 new Login().setVisible(true);
+                
+                
             }
         });
     }

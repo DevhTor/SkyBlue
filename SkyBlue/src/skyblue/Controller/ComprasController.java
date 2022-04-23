@@ -1,11 +1,11 @@
 
 package skyblue.Controller;
-import Model.VueloDA;
-import Model.UsuarioDA;
+import skyblue.Model.VueloDA;
+import skyblue.Model.UsuarioDA;
 import View.ResultadosBusqueda;
 import View.ResultadosBusqueda2;
 import View.OpcionesPago;
-import View.Menu;
+import skyblue.View.Menu;
 import View.BuscarVuelo;
 import skyblue.Controller.VueloController;
 import View.CambiarFecha;

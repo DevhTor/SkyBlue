@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package View;
+package skyblue.View;
 
 import javax.swing.ImageIcon;
 
@@ -17,7 +17,7 @@ public class Menu extends javax.swing.JFrame {
      */
     public Menu() {
         initComponents();
-        this.setIconImage(new ImageIcon(getClass().getResource("/Botones/SkyBlueIcon.png")).getImage());
+        this.setIconImage(new ImageIcon(getClass().getResource("/skyblue/Botones/SkyBlueIcon.png")).getImage());
     }
 
     /**
@@ -154,6 +154,11 @@ public class Menu extends javax.swing.JFrame {
         jLabel6.setText("Fecha de regreso");
 
         jButton4.setText("Buscar");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jRadioButton1.setText("Vuelo de Ida");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -265,6 +270,10 @@ public class Menu extends javax.swing.JFrame {
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton1ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments

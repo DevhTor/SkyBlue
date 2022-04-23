@@ -1,5 +1,5 @@
  
-package Model;
+package skyblue.Model;
 
 import java.util.Date;
 import java.sql.*;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-import Model.UsuarioDA;
+import skyblue.Model.UsuarioDA;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JComboBox;

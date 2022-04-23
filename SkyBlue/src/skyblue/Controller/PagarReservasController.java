@@ -4,12 +4,12 @@
  */
 package skyblue.Controller;
 
-import Model.UsuarioDA;
-import Model.VueloDA;
+import skyblue.Model.UsuarioDA;
+import skyblue.Model.VueloDA;
 import View.CambiarFecha;
 import View.ComprasRealizadas;
 import View.Itinerario;
-import View.Menu;
+import skyblue.View.Menu;
 import View.Reservaciones;
 import View.ResultadosBusqueda;
 import View.ResultadosBusqueda2;

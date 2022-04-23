@@ -1,5 +1,5 @@
 
-package Model;
+package skyblue.Model;
 
 import com.toedter.calendar.JDateChooser;
 import java.sql.Connection;

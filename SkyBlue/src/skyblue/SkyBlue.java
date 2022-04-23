@@ -5,6 +5,8 @@
 package skyblue;
 
 import skyblue.View.Login;
+import skyblue.Controller.LoginController;
+import skyblue.Model.UsuarioDA;
 
 /**
  *
@@ -16,12 +18,15 @@ public class SkyBlue {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         Login login = new Login();
+        UsuarioDA usuarioDA = new UsuarioDA();
+        
+        LoginController loginController = new LoginController(login, usuarioDA);
         
         login.setVisible(true);
         
-      
-        
+   
         
     }
     

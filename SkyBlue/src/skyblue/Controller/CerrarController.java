@@ -1,7 +1,8 @@
 
 package skyblue.Controller;
-import Model.*;
+import skyblue.Model.*;
 import skyblue.View.Login;
+import skyblue.View.Menu;
 import View.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
