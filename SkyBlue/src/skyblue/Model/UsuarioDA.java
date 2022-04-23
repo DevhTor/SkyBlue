@@ -28,12 +28,12 @@ public class UsuarioDA extends Thread {
    
    private String tiempoConexion;
     
-    public int validarUsuario(String idUsuario, String password){
+    public int validarUsuario(String Usuario, String password){
        PreparedStatement ps;
        int acceso=0;
         try {
-            ps = conn.prepareStatement("Select * from cuentUsuario where  ID=? AND Password=?");
-            ps.setString(1, idUsuario);
+            ps = conn.prepareStatement("Select * from cuentUsuario where  usuario=? AND Password=?");
+            ps.setString(1, Usuario);
             ps.setString(2, password);
             ResultSet res = ps.executeQuery();
             if(res.next()){
@@ -48,13 +48,13 @@ public class UsuarioDA extends Thread {
     return acceso;
     }
     
-    public boolean existeUsuario(String idUsuario){
+    public boolean existeUsuario(String usuario){
         boolean existe = false;
         
          PreparedStatement ps;
         try {
-            ps = conn.prepareStatement("Select * from cuentUsuario where  ID=?");
-            ps.setString(1, idUsuario);
+            ps = conn.prepareStatement("Select * from cuentUsuario where  usuario=?");
+            ps.setString(1, usuario);
             ResultSet res = ps.executeQuery();
             if(res.next()==true){
               existe=true;
@@ -66,13 +66,13 @@ public class UsuarioDA extends Thread {
         return existe;
     }
     
-     public boolean existeCliente(String idUsuario){
+     public boolean existeCliente(String nombre_Cliente){
         boolean existe = false;
         
          PreparedStatement ps;
         try {
-            ps = conn.prepareStatement("Select * from Cliente where ID=?");
-            ps.setString(1, idUsuario);
+            ps = conn.prepareStatement("Select * from Cliente where nombre_Cliente=?");
+            ps.setString(1, nombre_Cliente);
             ResultSet res = ps.executeQuery();
             if(res.next()==true){
               existe=true;

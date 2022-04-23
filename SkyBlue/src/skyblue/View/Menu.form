@@ -30,7 +30,7 @@
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/User.png"/>
+          <Image iconType="3" name="/skyblue/Botones/User.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -59,7 +59,7 @@
     <Component class="javax.swing.JButton" name="cerrarSesionBTN">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/cerrarSesion.png"/>
+          <Image iconType="3" name="/skyblue/Botones/cerrarSesion.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Cerrar Sesion   "/>
         <Property name="horizontalAlignment" type="int" value="4"/>
@@ -95,7 +95,7 @@
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/minilogo.png"/>
+          <Image iconType="3" name="/skyblue/Botones/minilogo.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -107,7 +107,7 @@
     <Component class="javax.swing.JButton" name="ReservacionesBTN">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/ReservacionesMini.png"/>
+          <Image iconType="3" name="/skyblue/Botones/ReservacionesMini.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Reservaciones"/>
         <Property name="horizontalAlignment" type="int" value="4"/>
@@ -126,7 +126,7 @@
     <Component class="javax.swing.JButton" name="ComprasBTN">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/Compras.png"/>
+          <Image iconType="3" name="/skyblue/Botones/Compras.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Compras Realizadas"/>
         <Property name="horizontalAlignment" type="int" value="4"/>
@@ -145,7 +145,7 @@
     <Component class="javax.swing.JButton" name="ItinierarioBTN">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/CalendarioIt.png"/>
+          <Image iconType="3" name="/skyblue/Botones/CalendarioIt.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Itinerario"/>
         <Property name="horizontalAlignment" type="int" value="4"/>
@@ -164,7 +164,7 @@
     <Component class="javax.swing.JButton" name="BuscarVueloBTN">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/BuscarVueloMini.png"/>
+          <Image iconType="3" name="/skyblue/Botones/BuscarVueloMini.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Buscar Vuelo"/>
         <Property name="horizontalAlignment" type="int" value="4"/>
@@ -200,7 +200,7 @@
         <Component class="javax.swing.JLabel" name="jLabel12">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Botones/BuscarVuelo.png"/>
+              <Image iconType="3" name="/skyblue/Botones/BuscarVuelo.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -449,7 +449,7 @@
     <Component class="javax.swing.JButton" name="ConfiguracionBTN">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/ConfiguracionMini.png"/>
+          <Image iconType="3" name="/skyblue/Botones/ConfiguracionMini.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Configuracion"/>
         <Property name="horizontalAlignment" type="int" value="4"/>
@@ -485,7 +485,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Botones/images.png"/>
+          <Image iconType="3" name="/skyblue/Botones/images.png"/>
         </Property>
       </Properties>
       <Constraints>

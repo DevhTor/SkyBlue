@@ -63,7 +63,7 @@ public class Menu extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/User.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/User.png"))); // NOI18N
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(808, 24, -1, 90));
 
         idUsuarioLBL.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -71,7 +71,7 @@ public class Menu extends javax.swing.JFrame {
         idUsuarioLBL.setText("KatherineGP");
         getContentPane().add(idUsuarioLBL, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 50, 140, -1));
 
-        cerrarSesionBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/cerrarSesion.png"))); // NOI18N
+        cerrarSesionBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/cerrarSesion.png"))); // NOI18N
         cerrarSesionBTN.setText("Cerrar Sesion   ");
         cerrarSesionBTN.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         cerrarSesionBTN.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
@@ -83,31 +83,31 @@ public class Menu extends javax.swing.JFrame {
         paisLBL.setText("Republica Dominicana");
         getContentPane().add(paisLBL, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 90, 140, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/minilogo.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/minilogo.png"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(44, 39, -1, 102));
 
-        ReservacionesBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/ReservacionesMini.png"))); // NOI18N
+        ReservacionesBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/ReservacionesMini.png"))); // NOI18N
         ReservacionesBTN.setText("Reservaciones");
         ReservacionesBTN.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         ReservacionesBTN.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         ReservacionesBTN.setIconTextGap(30);
         getContentPane().add(ReservacionesBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 217, 49));
 
-        ComprasBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/Compras.png"))); // NOI18N
+        ComprasBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/Compras.png"))); // NOI18N
         ComprasBTN.setText("Compras Realizadas");
         ComprasBTN.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         ComprasBTN.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         ComprasBTN.setIconTextGap(15);
         getContentPane().add(ComprasBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, 217, 48));
 
-        ItinierarioBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/CalendarioIt.png"))); // NOI18N
+        ItinierarioBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/CalendarioIt.png"))); // NOI18N
         ItinierarioBTN.setText("Itinerario");
         ItinierarioBTN.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         ItinierarioBTN.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
         ItinierarioBTN.setIconTextGap(40);
         getContentPane().add(ItinierarioBTN, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 217, 50));
 
-        BuscarVueloBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/BuscarVueloMini.png"))); // NOI18N
+        BuscarVueloBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/BuscarVueloMini.png"))); // NOI18N
         BuscarVueloBTN.setText("Buscar Vuelo");
         BuscarVueloBTN.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         BuscarVueloBTN.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
@@ -117,7 +117,7 @@ public class Menu extends javax.swing.JFrame {
         MuestraContenido.setOpaque(false);
         MuestraContenido.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/BuscarVuelo.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/BuscarVuelo.png"))); // NOI18N
         MuestraContenido.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 0, 324, -1));
 
         jPanel1.setBackground(java.awt.Color.white);
@@ -241,7 +241,7 @@ public class Menu extends javax.swing.JFrame {
 
         getContentPane().add(MuestraContenido, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, 660, 460));
 
-        ConfiguracionBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/ConfiguracionMini.png"))); // NOI18N
+        ConfiguracionBTN.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/ConfiguracionMini.png"))); // NOI18N
         ConfiguracionBTN.setText("Configuracion");
         ConfiguracionBTN.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         ConfiguracionBTN.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
@@ -253,7 +253,7 @@ public class Menu extends javax.swing.JFrame {
         nombreLBL.setText("Marleny Pena");
         getContentPane().add(nombreLBL, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 70, 140, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/images.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/images.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 610));
 
         pack();

@@ -203,7 +203,7 @@ public class CrearCuenta extends javax.swing.JFrame {
         jLabel19.setText("Cedula");
         getContentPane().add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, -1, -1));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/images.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/skyblue/Botones/images.png"))); // NOI18N
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, 0, 820, 590));
 
         pack();
